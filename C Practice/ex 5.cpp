@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main()
+{
+	int num,sum,a1,a2,a3,a4,a5,a,b,c,d,e;
+	printf("enter the num:");
+	scanf("%d",&num);
+	
+	
+	a=num/10;
+	a5=num%10;
+	b=num/10;
+	a4=num%10;
+	c=num/10;
+	a3=num%10;
+	d=num/10;
+	a2=num%10;
+	e=num/10;
+	a1=num%10;
+	sum=a1+a2+a3+4+a5;
+	
+	printf("reverse order: ");
+	
+	printf("sum:%d",sum);
+	
+	return 0;
+	
+	
+}
